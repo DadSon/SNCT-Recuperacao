@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="20"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dp">
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Avaliador:"
+        android:layout_weight="1"
+        android:id="@+id/textView"
+        android:textSize="20dp" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_gravity="center_horizontal"
+            android:text="Nome"
+            android:ems="10"
+            android:id="@+id/nome"
+            android:background="#EEE9E9"
+            android:layout_weight="1.06" />
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Título do Trabalho:"
+        android:layout_weight="1"
+        android:id="@+id/textView"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo"
+        android:layout_gravity="center_horizontal"
+        android:text="Título"
+        android:background="#EEE9E9"
+        android:layout_weight="1.06" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nota:"
+        android:layout_weight="1"
+        android:id="@+id/textView2"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nota"
+        android:layout_gravity="center_horizontal"
+        android:text="Nota"
+        android:background="#EEE9E9"
+        android:layout_weight="1.06" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Comentários:"
+        android:layout_weight="1"
+        android:id="@+id/textView3"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comentarios"
+        android:layout_gravity="center_horizontal"
+        android:text="Comentários"
+        android:background="#EEE9E9"
+        android:layout_weight="5.46" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="201dp"
+        android:layout_height="40dp"
+        android:text="Avaliar"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="201dp"
+        android:layout_height="40dp"
+        android:text="Consultar Avaliações"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp" />
+
+</LinearLayout>
